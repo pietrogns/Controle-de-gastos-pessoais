@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "descricao": "TV",
+        "valor": 500.0,
+        "tipo": "Receita",
+        "data": "13/02/2000 20:00"
+    },
+    {
+        "id": 2,
+        "descricao": "Celular",
+        "valor": 1500.0,
+        "tipo": "Receita",
+        "data": "20/05/2026 21:20"
+    }
+]
