@@ -12,5 +12,12 @@
         "valor": 1500.0,
         "tipo": "Receita",
         "data": "20/05/2026 21:20"
+    },
+    {
+        "id": 3,
+        "descricao": "Teste",
+        "valor": 12.0,
+        "tipo": "Receita",
+        "data": "26/02/2026 12:02"
     }
 ]

@@ -1,10 +1,3 @@
-"""
-Sistema de Controle Financeiro Pessoal
---------------------------------------
-Registra receitas e despesas, calcula saldo, gera relatórios e
-mantém os dados salvos em um arquivo JSON.
-"""
-
 import json
 import os
 from datetime import datetime
@@ -14,9 +7,7 @@ ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "movimentacoe
 FORMATO_DATA = "%d/%m/%Y %H:%M"
 
 
-# ---------------------------------------------------------------------------
-# Persistência de dados
-# ---------------------------------------------------------------------------
+#Funções apenas para o arquivo JSON
 def carregar_dados():
     """Carrega as movimentações do arquivo JSON. Cria o arquivo se não existir."""
     if not os.path.exists(ARQUIVO):
