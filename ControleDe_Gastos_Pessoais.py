@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 import os
 
-# Nome do arquivo onde os dados serão salvos
+# NOME DO ARQUIVO ONDE OS DADOS SERÃO SALVOS
 ARQUIVO = "movimentacoes.json"
 
 # Lista que guarda todas as movimentações
